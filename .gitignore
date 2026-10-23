@@ -1,0 +1,33 @@
+# Python environment
+.env
+*.env
+
+# Bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# Logs
+*.log
+
+# Vector store indices / data (common RAG vector stores)
+faiss_index/
+chroma/
+pinecone/
+weaviate/
+milvus/
+
+# Binary archives (large files)
+*.rar
+
+# IDE / editor settings
+.idea/
+*.swp
+*.swo
+
+# Frontend dependencies
+node_modules/
